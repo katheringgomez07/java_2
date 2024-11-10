@@ -1,0 +1,128 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8bbd0;
+}
+
+h1, h2, p {
+  color: #880e4f;
+}
+
+/* Barra de navegación */
+.navbar {
+  background-color: #ec407a;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  color: #f8bbd0;
+}
+
+/* Página de inicio */
+.home {
+  text-align: center;
+  padding: 50px;
+}
+
+.home h1 {
+  color: #ec407a;
+  font-size: 2em;
+}
+
+/* Estilo de la página de productos */
+.products {
+  background-color: #fce4ec;
+  padding: 20px;
+  color: #880e4f;
+}
+
+/* Estilo de cada tarjeta de producto */
+.product-card {
+  border: 1px solid #ec407a;
+  padding: 15px;
+  margin: 10px 0;
+  text-align: center;
+  border-radius: 8px;
+  background-color: #ffffff;
+}
+
+.product-card img {
+  width: 100px;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.product-card h3 {
+  color: #d81b60;
+}
+
+/* Estilos específicos del perfil */
+.profile {
+  background-color: #fce4ec;
+  padding: 20px;
+  text-align: center;
+  color: #880e4f;
+  border-radius: 10px;
+  max-width: 300px;
+  margin: 20px auto;
+}
+
+/* Imagen de perfil */
+.profile-picture {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+/* Indicador de perfil anónimo */
+.profile-anonymous-picture {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #ec407a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+/* Botón para cambiar perfil */
+.profile button {
+  background-color: #ec407a;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.profile button:hover {
+  background-color: #d81b60;
+}
+
+/* Estilos para el pie de página (opcional) */
+.footer {
+  background-color: #ec407a;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-size: 0.9em;
+}
